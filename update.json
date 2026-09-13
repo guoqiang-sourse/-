@@ -1,5 +1,5 @@
 {
   "version": "4.9.3",
-  "notes": "1. 修复应用进入数秒后闪退的问题，后台刷新与主动提醒异常不再中断应用。\n2. 彻底修复从底栏点击“屁岱”闪退的问题。\n3. 底栏“屁岱”与首页入口统一为相同的纯导航路径。\n4. 保留“我的”页面登录后完整入口修复。",
+  "notes": "1. 本版为基于原作者 yeliqin666/xjtu-toolbox-android 的社区魔改版，不是原项目官方发布，版权归属及致谢见项目 README。\n2. 修复应用进入数秒后闪退的问题，后台刷新与主动提醒异常不再中断应用。\n3. 彻底修复从底栏点击“屁岱”闪退的问题。\n4. 底栏“屁岱”与首页入口统一为相同的纯导航路径。\n5. 保留“我的”页面登录后完整入口修复。",
   "downloadUrl": "https://github.com/guoqiang-sourse/-/releases/latest/download/XJTU-Toolbox-4.9.3-release-signed.apk"
 }
