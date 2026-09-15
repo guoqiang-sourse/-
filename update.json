@@ -1,5 +1,5 @@
 {
-  "version": "4.9.8",
-  "notes": "1. 本版为基于原作者 yeliqin666/xjtu-toolbox-android 的社区魔改版，不是原项目官方发布；版权归属及致谢见 README。\n2. 修复校园卡二维码支出在升级后同时显示一笔正流水和一笔负流水的问题。\n3. 校园卡流水合并时忽略金额正负号，同一笔记录只保留一条，并以新接口返回的数据优先。\n4. 校园卡缓存前缀升级为 v2，旧版可能含有错误方向记录的缓存会被清理，不再与本次结果混合。\n5. 考勤流水改为直接展示 POST /student/attendance-records/page 接口返回的记录，不再额外拼接或重算。\n6. 已移除考勤 streams 合并、按课程和日期匹配、按时间推算节次以及按日期重算周次等二次处理。\n7. 新版考勤、请假申请流程和调休补休课程映射未修改；无校园网时自动切换 WebVPN 的策略保持不变，校园网自动登录仍保持移除。",
-  "downloadUrl": "https://github.com/guoqiang-sourse/-/releases/latest/download/XJTU-Toolbox-4.9.8-release-signed.apk"
+  "version": "4.9.9",
+  "notes": "1. 本版为基于原作者 yeliqin666/xjtu-toolbox-android 的社区魔改版，不是原项目官方发布；版权归属及致谢见 README。\n2. 智能调色会根据自定义颜色的饱和度与明度选择配色方案，加强浅色和深色主题下页面、卡片与浮层的明暗层级，并更换自定义主题色图标避免与“主题”重复。\n3. 下载管理新增“教材全文”分类，教材 PDF 不再标为“其他”，旧下载记录也会按文件名自动识别。\n4. 用户协议与隐私政策正文已更新并统一，首次启动确认页和设置页使用同一份完整条款。\n5. 考勤、请假申请和调休补休课程映射未修改；无校园网时自动切换 WebVPN 的策略保持不变，校园网自动登录仍保持移除。",
+  "downloadUrl": "https://github.com/guoqiang-sourse/-/releases/latest/download/XJTU-Toolbox-4.9.9-release-signed.apk"
 }
